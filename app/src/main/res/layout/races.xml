@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/race_item"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+
+            <TextView
+                android:id="@+id/Location"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:fontFamily="@font/formfont"
+                android:text="Monza"
+                android:textAlignment="center"
+                android:textColor="#FF1801"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+                    android:id="@+id/Track"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+
+                    >
+                    <TextView
+                        android:id="@+id/Date"
+                        android:layout_width="200dp"
+                        android:layout_height="30dp"
+                        android:text="Date:"
+                        android:fontFamily="@font/formfont"
+                        android:textAlignment="center"
+
+                        />
+                    <TextView
+                        android:id="@+id/Time"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="Time:"
+                        android:fontFamily="@font/formfont"
+                        android:textAlignment="center"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

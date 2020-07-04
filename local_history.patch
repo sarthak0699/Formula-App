@@ -1,0 +1,22 @@
+Index: app/src/main/java/com/example/formulaproject/CustomAdapter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/formulaproject/CustomAdapter.java	(date 1583842446000)
++++ app/src/main/java/com/example/formulaproject/CustomAdapter.java	(date 1583842446000)
+@@ -1,4 +1,4 @@
+-epackage com.example.formulaproject;
++package com.example.formulaproject;
+ 
+ import android.view.LayoutInflater;
+ import android.view.View;
+@@ -9,6 +9,8 @@
+ import androidx.annotation.NonNull;
+ import androidx.recyclerview.widget.RecyclerView;
+ 
++import com.example.formulaproject.RaceItem;
++
+ import java.util.ArrayList;
+ 
+ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHolder>
